@@ -10,8 +10,10 @@ docker build -t bimsj-hadoop2.7.1-base .
 ```
 
 # 下載映像檔
-這個映像檔未來也會釋出到Docker官方的公開倉庫。
-
+這個映像檔已經釋出到Docker官方的公開倉庫。
+```
+docker pull billy7074396/bimsj-hadoop2.7.1-base
+```
 # 測試映像檔
 該映像檔並沒有部署Hadoop的功能單純只是把Hadoop所需要的檔案包進去，所以測試只是查看檔案是否正常。
 如果需要進行Docker上的Hadoop部署請參考另一篇 bimsj-hadoop2.7.1-cluster
