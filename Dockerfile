@@ -1,6 +1,6 @@
 # Creates distributed hadoop 2.7.1
 #
-# docker build -t bimsj-hadoop2.7.1-base .
+# docker build -t billy7074396/bimsj-hadoop2.7.1-base .
 
 # Pull base image.
 FROM ubuntu:14.04
@@ -40,4 +40,4 @@ RUN mkdir /hadoop/hdfs/tmp
 RUN mkdir /hadoop/hdfs/dfs/name
 RUN mkdir /hadoop/hdfs/dfs/data
 
-#docker run -it bimsj-hadoop2.7.1-base bash
+#docker run -it billy7074396/bimsj-hadoop2.7.1-base bash
