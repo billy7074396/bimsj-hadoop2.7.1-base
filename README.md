@@ -6,7 +6,7 @@
 # 建立映像檔
 如果你想要自行建立的話請到專案資料夾進行Dockerfile的映像檔建立。
 ```
-docker build -t bimsj-hadoop2.7.1-base .
+docker build -t billy7074396/bimsj-hadoop2.7.1-base .
 ```
 
 # 下載映像檔
@@ -18,5 +18,5 @@ docker pull billy7074396/bimsj-hadoop2.7.1-base
 該映像檔並沒有部署Hadoop的功能單純只是把Hadoop所需要的檔案包進去，所以測試只是查看檔案是否正常。
 如果需要進行Docker上的Hadoop部署請參考另一篇 bimsj-hadoop2.7.1-cluster
 ```
-docker run -it bimsj-hadoop2.7.1-base bash
+docker run -it billy7074396/bimsj-hadoop2.7.1-base bash
 ```
